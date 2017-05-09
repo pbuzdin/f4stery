@@ -44,6 +44,9 @@
 .form-control {
     border-radius: 5px;
 }
+input.form-control {
+    padding: 24px;
+}
 button[name="login-button"],
 button[name="login-button"]:hover,
 button[name="login-button"]:active,
