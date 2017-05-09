@@ -113,7 +113,10 @@ button[name="login-button"]:active,
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
     .login {
-        padding: 15px;
+        padding: 0 15px;
+    }
+    .auth > div {
+        margin: 80px auto;
     }
     .auth {
         background-position:
