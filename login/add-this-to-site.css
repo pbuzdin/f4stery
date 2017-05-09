@@ -64,6 +64,9 @@ button[name="login-button"]:active,
 .auth > div .logo {
     margin-bottom: 60px;
 }
+.field-loginform-email {
+    margin-bottom: 25px;
+}
 .field-loginform-rememberme input[type="checkbox"] {
     display: none;
 }
