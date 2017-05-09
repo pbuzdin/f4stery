@@ -82,7 +82,8 @@ button[name="login-button"]:active,
     background-repeat: no-repeat;
 }
 .ml15,
-.ml15:hover {
+.ml15:hover,
+.ml15:focus {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
