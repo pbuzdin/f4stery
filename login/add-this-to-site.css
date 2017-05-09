@@ -1,6 +1,8 @@
-
+.auth > div .logo img {
+    height: 70px;
+}
 .auth {
-width: 100%;
+  width: 100%;
   height: 100vh;
   padding: 5% 0;
   background-color: #4986ff;
