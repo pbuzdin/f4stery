@@ -72,7 +72,6 @@ button[name="login-button"]:active,
     background-size: 24px 24px;
     background-position: left;
     background-repeat: no-repeat;
-    margin: 0 -15px 45px;
 }
 .field-loginform-rememberme input[type=checkbox]:checked + label {
     background-image: 
@@ -97,4 +96,5 @@ button[name="login-button"]:active,
 .form-group.field-loginform-rememberme {
     border-bottom: 2px dotted #fff;
     margin: 0;
+    padding-bottom: 45px;
 }
