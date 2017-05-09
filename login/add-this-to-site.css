@@ -104,3 +104,19 @@ button[name="login-button"]:active,
     margin-top: 30px;
     text-align: center;
 }
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    .login {
+        padding: 15px;
+    }
+    .auth {
+        background-position:
+            bottom 0px left -100%,
+            bottom,
+            top left,
+            top right,
+            bottom,
+            bottom;
+    }
+}
