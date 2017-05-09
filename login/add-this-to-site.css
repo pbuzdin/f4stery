@@ -118,5 +118,12 @@ and (max-device-width : 667px) {
             top right,
             bottom,
             bottom;
+        background-size: 
+            22%, 
+            33%, 
+            38%, 
+            38%, 
+            100% 14%, 
+            100%;
     }
 }
