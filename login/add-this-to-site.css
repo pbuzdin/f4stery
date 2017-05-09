@@ -97,4 +97,5 @@ button[name="login-button"]:active,
     border-bottom: 2px dotted #fff;
     margin: 0;
     padding-bottom: 45px;
+    padding-top: 10px;
 }
