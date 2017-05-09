@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="rAsdoWmMeqFTx63s43RiFxpSVD25A9Q5IrksUy0ixV0KvRuTm4OhTUxJwFK_t9QFvhhek9GGmfGE-7oGFbQqoQ==">
+    <title>Войти</title>
+    <link href="//lk.fastery.ru/assets/caf7da07/css/bootstrap.css" rel="stylesheet">
+<link href="//lk.fastery.ru/assets/bde68d1/css/font-awesome.min.css" rel="stylesheet">
+<link href="//lk.fastery.ru/css/site.css" rel="stylesheet"></head>
+<body>
+<div class="container auth">
+        <div class="login">
+    <div class="logo">
+        <img src="//lk.fastery.ru/logo.svg" />
+    </div>
+    <form id="login-form" class="form-horizontal" action="//lk.fastery.ru/login" method="post">
+<input type="hidden" name="_csrf" value="rAsdoWmMeqFTx63s43RiFxpSVD25A9Q5IrksUy0ixV0KvRuTm4OhTUxJwFK_t9QFvhhek9GGmfGE-7oGFbQqoQ==">
+        
+        <div class="form-group field-loginform-email required">
+<div class="col-sm-12"><input type="text" id="loginform-email" class="form-control" name="LoginForm[email]" autofocus placeholder="email" aria-required="true"></div>
+
+</div>        <div class="form-group field-loginform-password required">
+<div class="col-sm-12"><input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" placeholder="пароль" aria-required="true"></div>
+
+</div>        <div class="form-group field-loginform-rememberme">
+<div class="col-sm-12"><input type="hidden" name="LoginForm[rememberMe]" value="0"><input type="checkbox" id="loginform-rememberme" name="LoginForm[rememberMe]" value="1" checked> <label for="loginform-rememberme">запомнить меня</label></div>
+</div>        <div class="form-group">
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-success" name="login-button">Войти</button>                <a class="ml15 mt8 pull-right"
+                   href="/forgot-password">Забыли пароль?</a>
+            </div>
+        </div>
+    </form></div>
+    </div>
+<script src="//lk.fastery.ru/assets/ecf2eb8d/jquery.js"></script>
+<script src="//lk.fastery.ru/assets/26564a55/yii.js"></script>
+<script src="//lk.fastery.ru/assets/26564a55/yii.activeForm.js"></script>
+<script src="//lk.fastery.ru/assets/caf7da07/js/bootstrap.js"></script>
+<script src="//lk.fastery.ru/js/site.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#login-form').yiiActiveForm([], {"errorCssClass":false});
+});</script></body>
+</html>
