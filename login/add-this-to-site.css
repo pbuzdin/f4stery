@@ -66,7 +66,6 @@ button[name="login-button"]:active,
 }
 .field-loginform-rememberme input[type=checkbox] + label {
     color: #fff;
-    font-weight: bold;
     font-size: 14px;
     padding: 14px 36px;
     background-image: linear-gradient(to right, #fff, #fff);
@@ -86,7 +85,6 @@ button[name="login-button"]:active,
 .ml15:hover {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
     font-size: 15px;
     padding: 0;
     border-bottom: 1px solid;
